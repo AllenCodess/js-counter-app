@@ -60,3 +60,23 @@ buttons
 .count-down-btn {
     background-color: red;
 }
+
+.save-btn {
+    background-color: #0e64b4;
+}
+
+
+.saved-section {
+    text-align: center;
+    margin-top: 3rem;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.saved-header {
+    font-size: 24px;
+}
+
+#saved-count {
+    font-size: 1.5rem;
+}
