@@ -12,13 +12,13 @@ countDownBtn.addEventListener("click" , countDown)
 
 //Functions
 function countUp () {
-     count = count + 1;
+     count  += 1
      countEl.textContent = count
  
 }
 
 function countDown () {
-    count = count - 1;
+    count -= 1
     countEl.textContent = count
 }
 
