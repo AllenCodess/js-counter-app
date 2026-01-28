@@ -12,6 +12,7 @@ countUpBtn.addEventListener("click" , countUp)
 countDownBtn.addEventListener("click" , countDown)
 saveCountEl.addEventListener("click", save )
 
+
 //Functions
 function countUp () {
      count  += 1
@@ -25,6 +26,12 @@ function countDown () {
 }
 
 function save () {
-    savedEl.textContent = count
+    let savedCount = count + " - "
+    savedEl.textContent += savedCount
+    count = 0
+    countEl.textContent = 0
+
 }
+
+
 
