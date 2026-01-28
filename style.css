@@ -50,6 +50,7 @@ buttons
     font-weight: 600;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 .count-up-btn {
