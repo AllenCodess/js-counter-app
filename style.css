@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(20,20,20, .7), rgba(20,20,20, .7)), url("https://cdn.pixabay.com/photo/2015/05/20/14/39/baggage-hall-775540_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.header-text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 14rem;
+    color: aliceblue;
+}
+
+.main-heading {
+    font-size: 56px;
+    padding-bottom: 2rem;
+}
+
+.count {
+    font-size: 40px;
+}
