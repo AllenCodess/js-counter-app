@@ -37,6 +37,9 @@ buttons
 .buttons-container {
     text-align: center;
     margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
 }
 
 .btn {
@@ -51,4 +54,8 @@ buttons
 
 .count-up-btn {
     background-color: green;
+}
+
+.count-down-btn {
+    background-color: red;
 }
